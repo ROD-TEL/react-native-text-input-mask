@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A4F956B232912A7005F7A0B /* InputMask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002CCD7D225CC0B6001CEC49 /* InputMask.framework */; };
 		B3E7B58A1CC2AC0600A0062D /* RNTextInputMask.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNTextInputMask.m */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4F956B232912A7005F7A0B /* InputMask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +74,13 @@
 				002CCD81225CC0B6001CEC49 /* InputMaskTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0A4F9567232912A7005F7A0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		134814211AA4EA7D00B7C361 /* Products */ = {
@@ -89,6 +98,7 @@
 				B3E7B5891CC2AC0600A0062D /* RNTextInputMask.m */,
 				002CCD76225CC0B6001CEC49 /* InputMask.xcodeproj */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				0A4F9567232912A7005F7A0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -275,6 +285,8 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/React-Core/**",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/**",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
@@ -291,6 +303,8 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/React-Core/**",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/**",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
